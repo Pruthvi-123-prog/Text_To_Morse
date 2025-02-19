@@ -34,6 +34,7 @@ public class morse {
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
         char[] morse_char = word.toUpperCase().toCharArray();
+        System.out.print("Here is your morse code: ");
         for(char i : morse_char){
             if (i == ' ') {
                 System.out.print("  "); 
