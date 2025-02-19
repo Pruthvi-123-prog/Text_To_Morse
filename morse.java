@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class morse {
     public static void main(String[] args) {
         String[] morse = {
@@ -40,7 +39,7 @@ public class morse {
                 System.out.print("  "); 
             } else if (i >= 'A' && i <= 'Z') {
                 int morse_index = i - 'A';
-                System.out.print(morse[morse_index]);
+                System.out.print("Your MORSE code is here:- " + morse[morse_index]);
             }
         }
         scanner.close();
